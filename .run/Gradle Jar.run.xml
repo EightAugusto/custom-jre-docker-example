@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Gradle Jar" type="JarApplication">
+    <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/$PROJECT_NAME$.jar" />
+    <option name="VM_PARAMETERS" value="-Dserver.port=${APPLICATION_PORT}" />
+    <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    <option name="ALTERNATIVE_JRE_PATH" />
+    <envs>
+      <env name="APPLICATION_PORT" value="8080" />
+    </envs>
+    <method v="2">
+      <option name="Gradle.BeforeRunTask" enabled="false" tasks="clean build" externalProjectPath="$PROJECT_DIR$" vmOptions="" scriptParameters="" />
+    </method>
+  </configuration>
+</component>
